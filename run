@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+gcc -Wall -Wextra -o output main.c
+
+if [ "$?" == "0" ]; then
+  ./output
+fi
